@@ -26,6 +26,7 @@
   --gold-bright: #C99F65;
   --gold-soft: #DBBE89;
   --gold-tint: rgba(180, 138, 82, 0.12);
+  --gold-deep: #8A6630; /* Gold für kleine Schrift auf hellem Grund */
 
   /* Lines */
   --line: #E5DCC8;
@@ -93,7 +94,7 @@ main { position: relative; z-index: 1; }
   font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--gold-deep);
   display: inline-flex;
   align-items: center;
   gap: 12px;
@@ -156,7 +157,7 @@ section {
   align-items: center;
   gap: 16px;
 }
-.section-head .eyebrow { color: var(--gold); }
+.section-head .eyebrow { color: var(--gold-deep); }
 .section-head .eyebrow.center::before,
 .section-head .eyebrow.center::after {
   content: '';

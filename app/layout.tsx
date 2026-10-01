@@ -71,8 +71,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" suppressHydrationWarning>
-      <body className={`${inter.variable} ${cormorant.variable}`}>
+    <html lang="tr" className={`${inter.variable} ${cormorant.variable}`} suppressHydrationWarning>
+      <body>
         <LangProvider>
           <SiteChrome>{children}</SiteChrome>
         </LangProvider>
