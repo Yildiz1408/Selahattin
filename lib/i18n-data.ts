@@ -244,11 +244,11 @@ export const I18N = {
         },
         {
           h: 'Cookies & Analyse',
-          p: 'Diese Website setzt keine Tracking-Cookies ein und nutzt keine Analyse- oder Marketing-Dienste Dritter.',
+          p: 'Diese Website setzt keine Cookies zu Tracking- oder Marketingzwecken ein.\nZur Reichweitenmessung wird Vercel Web Analytics der Vercel Inc. (USA) genutzt. Dabei werden ohne Cookies anonymisierte Nutzungsdaten erfasst (z. B. aufgerufene Seiten, Referrer, Land, Browser, Betriebssystem und Gerätetyp). Ein Besucher wird nur über einen Hash aus Anfragedaten wiedererkannt, der nach 24 Stunden verworfen wird; eine Identifizierung einzelner Personen oder eine seitenübergreifende Verfolgung findet nicht statt. Rechtsgrundlage ist unser berechtigtes Interesse an der Analyse und Verbesserung des Angebots (Art. 6 Abs. 1 lit. f DSGVO). Vercel ist unter dem EU-US Data Privacy Framework zertifiziert.',
         },
         {
           h: 'Hosting & Server-Logfiles',
-          p: 'Beim Aufruf der Seite werden durch den Hosting-Anbieter technisch notwendige Daten in Server-Logfiles erfasst (z. B. IP-Adresse, Browser, Zeitpunkt des Zugriffs). Diese Daten dienen ausschließlich der Sicherstellung eines störungsfreien Betriebs und werden nach kurzer Zeit gelöscht.',
+          p: 'Diese Website wird bei Vercel Inc. (USA) gehostet. Beim Aufruf der Seite werden durch den Hosting-Anbieter technisch notwendige Daten in Server-Logfiles erfasst (z. B. IP-Adresse, Browser, Zeitpunkt des Zugriffs). Diese Daten dienen ausschließlich der Sicherstellung eines störungsfreien Betriebs und werden nach kurzer Zeit gelöscht.',
         },
         {
           h: 'Ihre Rechte',
@@ -502,11 +502,11 @@ export const I18N = {
         },
         {
           h: 'Çerezler & Analiz',
-          p: 'Bu web sitesi takip çerezleri kullanmaz ve üçüncü taraf analiz veya pazarlama hizmetlerinden yararlanmaz.',
+          p: 'Bu web sitesi takip veya pazarlama amaçlı çerez kullanmaz.\nZiyaretçi istatistikleri için Vercel Inc. (ABD) tarafından sunulan Vercel Web Analytics kullanılmaktadır. Çerez kullanılmadan anonimleştirilmiş kullanım verileri toplanır (örn. ziyaret edilen sayfalar, yönlendiren site, ülke, tarayıcı, işletim sistemi ve cihaz türü). Bir ziyaretçi yalnızca istek verilerinden oluşturulan ve 24 saat sonra silinen bir hash ile tanınır; kişilerin kimliği belirlenmez ve siteler arası takip yapılmaz. Hukuki dayanak, hizmetin analiz edilmesi ve iyileştirilmesine yönelik meşru menfaatimizdir (GDPR Madde 6/1 f). Vercel, AB-ABD Veri Gizliliği Çerçevesi (Data Privacy Framework) kapsamında sertifikalıdır.',
         },
         {
           h: 'Barındırma & Sunucu Log dosyaları',
-          p: 'Sayfa çağrıldığında, barındırma sağlayıcısı tarafından teknik olarak gerekli veriler sunucu log dosyalarında kaydedilir (örn. IP adresi, tarayıcı, erişim zamanı). Bu veriler yalnızca sorunsuz işletimi sağlamak için kullanılır ve kısa süre içinde silinir.',
+          p: 'Bu web sitesi Vercel Inc. (ABD) tarafından barındırılmaktadır. Sayfa çağrıldığında, barındırma sağlayıcısı tarafından teknik olarak gerekli veriler sunucu log dosyalarında kaydedilir (örn. IP adresi, tarayıcı, erişim zamanı). Bu veriler yalnızca sorunsuz işletimi sağlamak için kullanılır ve kısa süre içinde silinir.',
         },
         {
           h: 'Haklarınız',
