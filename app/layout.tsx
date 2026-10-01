@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { LangProvider } from "@/components/lang-context";
 import { SiteChrome } from "@/components/SiteChrome";
 import { METADATA_BASE, OG_IMAGE_ALT, SEO, SITE_NAME } from "@/lib/site-config";
@@ -75,6 +76,7 @@ export default function RootLayout({
         <LangProvider>
           <SiteChrome>{children}</SiteChrome>
         </LangProvider>
+        <Analytics />
       </body>
     </html>
   );
