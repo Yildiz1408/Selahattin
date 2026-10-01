@@ -715,20 +715,35 @@ section {
   .hero-panel-wrap {
     flex-direction: row;
     align-items: stretch;
+    gap: 18px;
   }
   .hero-floats {
     flex-direction: column;
     flex-wrap: nowrap;
-    width: min(132px, 22%);
+    width: 168px;
     flex-shrink: 0;
     padding-top: 12px;
-    gap: 12px;
+    gap: 14px;
   }
   .float-card {
     flex: 0 0 auto;
     flex-direction: column;
-    min-height: 96px;
+    gap: 12px;
+    min-height: 120px;
     width: 100%;
+    padding: 20px 16px;
+  }
+  .float-card-title {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .float-card-sub {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  /* Öffnungszeiten nicht umbrechen */
+  .float-card:first-child .float-card-sub {
+    white-space: nowrap;
   }
 }
 
