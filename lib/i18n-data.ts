@@ -47,8 +47,8 @@ export const I18N = {
       items: [
         {
           n: '01',
-          t: 'Gerichtsdolmetschen',
-          d: 'Dolmetschen bei Verhandlungen, Befragungen und Vernehmungen. Vereidigt und anerkannt durch Landgericht Hannover sowie Türkisches Generalkonsulat.',
+          t: 'Begleitung bei Terminen',
+          d: 'Persönliche Begleitung bei privaten oder geschäftlichen Terminen, u. a. bei Ausländerbehörde, Standesamt und Notar.',
         },
         {
           n: '02',
@@ -62,8 +62,8 @@ export const I18N = {
         },
         {
           n: '04',
-          t: 'Begleitung bei Terminen',
-          d: 'Persönliche Begleitung bei privaten oder geschäftlichen Terminen, u. a. bei Ausländerbehörde, Standesamt und Notar.',
+          t: 'Gerichtsdolmetschen',
+          d: 'Dolmetschen bei Verhandlungen, Befragungen und Vernehmungen. Vereidigt und anerkannt durch Landgericht Hannover sowie Türkisches Generalkonsulat.',
         },
       ],
     },
@@ -305,8 +305,8 @@ export const I18N = {
       items: [
         {
           n: '01',
-          t: 'Mahkemede Tercümanlık',
-          d: 'Duruşmalar, sorgular ve ifadelerde tercümanlık. Hannover Eyalet Mahkemesi ve Türk Başkonsolosluğu tarafından tanınır.',
+          t: 'Randevuya Eşlik',
+          d: 'Yabancılar Şubesi, Nüfus Müdürlüğü ve Noter dahil özel veya ticari randevularda kişisel eşlik.',
         },
         {
           n: '02',
@@ -320,8 +320,8 @@ export const I18N = {
         },
         {
           n: '04',
-          t: 'Randevuya Eşlik',
-          d: 'Yabancılar Şubesi, Nüfus Müdürlüğü ve Noter dahil özel veya ticari randevularda kişisel eşlik.',
+          t: 'Mahkemede Tercümanlık',
+          d: 'Duruşmalar, sorgular ve ifadelerde tercümanlık. Hannover Eyalet Mahkemesi ve Türk Başkonsolosluğu tarafından tanınır.',
         },
       ],
     },

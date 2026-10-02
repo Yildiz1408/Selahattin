@@ -35,7 +35,7 @@ export function SectionHead({
 
 export function Services({ t }: { t: Messages }) {
   const ref = useReveal();
-  const icons = ["gavel", "pillars", "doc", "people"];
+  const icons = ["people", "pillars", "doc", "gavel"];
   return (
     <section id="leistungen" className="section-services">
       <div className="container">
